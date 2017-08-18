@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    margin: 0px;
+    flex-flow: column;
+    background-color: mintcream;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex: 0.5;
+    justify-content: center;
+}
+
+#calendar {
+    display: flex;
+    background-color: darkslategrey;
+    flex: 0.5;
+    flex-flow: column;
+    border-radius: 5px;
+}
+
+#calendar-menubar {
+    min-height: 5em;
+}
+
+#calendar-days {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex: 1;
+    flex-shrink: 0;
+}
+
+.calendar-day {
+    background-color: dodgerblue;
+    flex-basis: 12.55%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    border-radius: 5px;
+}
